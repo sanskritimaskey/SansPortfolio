@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanskriti Maskey</title>
+    <link href="/dist/output.css" rel="stylesheet">
+
+    <!--On Scroll Animation AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+    <!--Swiper Slider CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+        .clamped-text {
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      </style>
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav class="flex flex-wrap items-center justify-between p-5 bg-secondary-500">
+        <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+            <span class="ml-3 text-xl">Sanskriti</span>
+        </a>
+        <div class="flex md:hidden">
+            <button id="hamburger">
+                <img class="toggle block" src="./asset/menu-squared.png" alt="menu icon" width="40" height="40">
+                <img class="toggle hidden" src="./asset/close-window.png" alt="close icon" width="40" height="40">
+            </button>
+        </div>
+        <div
+            class="toggle hidden w-full md:w-auto md:flex text-right text-bold mt-5 md:mt-0 border-t-2 border-primary-500 md:border-none">
+            <a href="#whatIdo"
+                class="block md:inline-block text-slate-200 hover:text-primary-500 px-3 py-3 border-b-2 border-primary-500 md:border-none uppercase">What
+                I do</a>
+            <a href="#portfolio"
+                class="block md:inline-block text-slate-200 hover:text-primary-500 px-3 py-3 border-b-2 border-primary-500 md:border-none uppercase">Event
+                Portfolio</a>
+            <!-- <a href="#skills"
+                class="block md:inline-block text-slate-200 hover:text-primary-500 px-3 py-3 border-b-2 border-primary-500 md:border-none uppercase">Skills</a> -->
+
+            <a href="#blog"
+                class="block md:inline-block text-slate-200 hover:text-primary-500 px-3 py-3 border-b-2 border-primary-500 md:border-none uppercase">Blog</a>
+            <a href="#contact"
+                class="block md:inline-block text-slate-200 hover:text-primary-500 px-3 py-3 border-b-2 border-primary-500 md:border-none uppercase">Contact
+                me</a>
+        </div>
+        <a href="#contact"
+            class="toggle hidden md:flex w-full md:w-auto px-4 py-2 text-right bg-primary-500 hover:bg-secondary-600 hover:text-primary-500 text-white md:rounded">VIEW CV</a>
+    </nav>
+
+    <!-- Navbar End-->
+
+    <!-- Hero Section Start-->
+    <section class="text-gray-400 bg-secondary-500 body-font">
+        <div class="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center">
+            <div
+                class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 border-solid border-[18px] border-secondary-600 drop-shadow-xl sm:order-1 lg:order-2">
+                <img class="object-cover object-center rounded " alt="hero" src="./asset/hero-imagenew.jpg">
+            </div>
+            <div
+                class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:pt-10 pt-8 items-center text-center">
+                <h1 class="title-font sm:text-6xl leading-6 text-2xl mb-4 font-bold text-white">Hi, I'm <span
+                        class="text-primary-500">Sanskriti Maskey</span></h1>
+                <h2 class="title-font sm:text-3xl text-xl mb-4 font-bold text-white">Event Manager & Coordinator
+                </h2>
+                <p class="mb-8 leading-relaxed text-slate-200">A BIM student with a passion for planning and executing
+                    events that leave an impact, currently interning as an event manager at Code IT, i blend creativity
+                    and coordination to bring ideas to life-one event at a time. Driven, orieanted, and always up for a
+                    challange!.</p>
+                <div class="flex justify-center my-6">
+                    <a href="https://www.linkedin.com/in/sanskriti-maskey-524329315/" target="_blank"
+                        rel="noopener noreferrer">
+                        <button
+                            class="inline-flex text-white bg-secondary-600 border-0 py-4 px-6 focus:outline-none hover:bg-primary-500 rounded-lg text-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                            </svg>
+                        </button>
+                    </a>
+
+                    <a href="https://www.facebook.com/sanskriti.maskey.2025" target="_blank" rel="noopener noreferrer">
+                        <button
+                            class="ml-4 inline-flex text-gray-400 bg-secondary-600 border-0 py-4 px-6 focus:outline-none hover:bg-primary-500 hover:text-white rounded-lg text-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path
+                                    d="M8.051 0C3.605 0 0 3.605 0 8.051c0 3.984 2.925 7.294 6.75 7.943v-5.62H4.672V8.051H6.75V6.275c0-2.064 1.228-3.206 3.111-3.206.902 0 1.844.161 1.844.161v2.03h-1.039c-1.022 0-1.34.635-1.34 1.287v1.503h2.277l-.364 2.323H9.326v5.62C13.151 15.344 16 12.035 16 8.051 16 3.605 12.395 0 8.051 0z" />
+                            </svg>
+                        </button>
+                    </a>
+
+                    <a href="https://x.com/MaskeySans92059?t=3onAeEvHEma1ZSaYavP2IQ&s=09" target="_blank"
+                        rel="noopener noreferrer">
+                        <button
+                            class="ml-4 inline-flex text-gray-400 bg-secondary-600 border-0 py-4 px-6 focus:outline-none hover:bg-primary-500 hover:text-white rounded-lg text-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-twitter" viewBox="0 0 16 16">
+                                <path
+                                    d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                            </svg>
+                        </button>
+                    </a>
+
+                    <a href="https://www.instagram.com/sanskriti_maskey?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                        target="_blank" rel="noopener noreferrer">
+                        <button
+                            class="ml-4 inline-flex text-gray-400 bg-secondary-600 border-0 py-4 px-6 focus:outline-none hover:bg-primary-500 hover:text-white rounded-lg text-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                            </svg>
+                        </button>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section End-->
+
+    <!-- What I do Section Start -->
+
+    <section id="whatIdo" class="text-gray-400 bg-secondary-500 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap border-t-2 border-secondary-600">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h2
+                    class="sm:text-4xl text-2xl font-medium title-font underline decoration-primary-500 decoration-4 underline-offset-8 text-slate-200">
+                    What I Do</h2>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 md:w-1/3" data-aos="fade-up" data-aos-delay="400">
+                    <div class="flex rounded-lg h-full bg-secondary-600 bg-opacity-60 p-8 flex-col">
+                        <div class="flex items-center mb-3">
+                            <div
+                                class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-primary-500 text-white flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M4.5 3h15a1.5 1.5 0 011.5 1.5v15a1.5 1.5 0 01-1.5 1.5h-15a1.5 1.5 0 01-1.5-1.5v-15a1.5 1.5 0 011.5-1.5zM6 6h12M6 9h12M6 12h12M6 15h12M6 18h12" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 9l2 2 4-4" />
+                                </svg>
+
+
+                            </div>
+                            <h2 class="text-slate-200 text-lg title-font font-medium">Event Manager</h2>
+                        </div>
+                        <div class="flex-grow">
+                            <p class="leading-relaxed text-base">I can plan and organize academic and co-curricular
+                                events, manage budgets and resources, and lead teams while coordinating with faculty,
+                                students, and staff. My focus is to ensure that all events are executed smoothly,
+                                adhering to safety protocols and campus guidelines, ensuring a seamless experience for
+                                all involved.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3" data-aos="fade-up" data-aos-delay="500">
+                    <div class="flex rounded-lg h-full bg-secondary-600 bg-opacity-60 p-8 flex-col">
+                        <div class="flex items-center mb-3">
+                            <div
+                                class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-primary-500 text-white flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3 5.25V19.5A2.25 2.25 0 005.25 21H18.75A2.25 2.25 0 0021 19.5V5.25A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25zM3 7.5h18M9 3v4m6-4v4M9 12l2 2 4-4" />
+                                </svg>
+
+
+                            </div>
+                            <h2 class="text-slate-200 text-lg title-font font-medium">Event Coordinator</h2>
+                        </div>
+                        <div class="flex-grow">
+                            <p class="leading-relaxed text-base">I can handle event logistics such as venue setup,
+                                materials, and ensuring all necessary resources are in place. I communicate event
+                                details clearly, guide volunteers, and manage the event flow, making sure everything
+                                stays on schedule. Additionally, I assist in post-event tasks like gathering feedback
+                                and preparing reports to ensure continuous improvement for future events.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 md:w-1/3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="flex rounded-lg h-full bg-secondary-600 bg-opacity-60 p-8 flex-col">
+                        <div class="flex items-center mb-3">
+                            <div
+                                class="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-primary-500 text-white flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="mt-3 w-8 h-8">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M9.75 3c.69 0 1.25.56 1.25 1.25v3.625a1.25 1.25 0 01-1.25 1.25H6.75a1.25 1.25 0 01-1.25-1.25V4.25C5.5 3.56 6.06 3 6.75 3h3zm8.5 0c.69 0 1.25.56 1.25 1.25v3.625a1.25 1.25 0 01-1.25 1.25h-3.5a1.25 1.25 0 01-1.25-1.25V4.25c0-.69.56-1.25 1.25-1.25h3.5zm-2 9.5c-.62 0-1.16.4-1.38.98a1.25 1.25 0 01-1.2.78c-.71-.13-1.23-.74-1.23-1.44 0-.8.62-1.47 1.44-1.47h2.62a1.25 1.25 0 01.96.42c.18.27.31.59.42.92-.17.33-.33.66-.5.99-.35.49-.86.87-1.44 1.05zm-7 0c-.62 0-1.16.4-1.38.98a1.25 1.25 0 01-1.2.78c-.71-.13-1.23-.74-1.23-1.44 0-.8.62-1.47 1.44-1.47h2.62a1.25 1.25 0 01.96.42c.18.27.31.59.42.92-.17.33-.33.66-.5.99-.35.49-.86.87-1.44 1.05z" />
+                                </svg>
+
+
+                            </div>
+                            <h2 class="text-slate-200 text-lg title-font font-medium">Collaborative Partnerships Manager
+                            </h2>
+                        </div>
+                        <div class="flex-grow">
+                            <p class="leading-relaxed text-base">I can establish and manage strategic partnerships,
+                                collaborate with academic and business partners, and facilitate meaningful connections.
+                                I arrange meetings, drive collaboration initiatives, and ensure seamless communication
+                                between all stakeholders to support the growth and success of projects and events.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What I do Section End -->
+
+    <!-- Portfolio Section Start -->
+    <section id="portfolio" class="text-gray-400 body-font bg-secondary-500">
+        <div class="container px-5 py-24 mx-auto border-t-2 border-secondary-600">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h2
+                    class="sm:text-4xl text-2xl font-medium title-font underline decoration-primary-500 decoration-4 underline-offset-8 text-slate-200">
+                    Event Portfolio</h2>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="xl:w-1/3 md:w-1/2 p-4"><a href="#">
+                        <div class="bg-secondary-600 bg-opacity-40 p-6 rounded-lg">
+                            <img class="h-40 rounded w-full object-cover object-center mb-6 hover:scale-105 duration-500"
+                                src="./asset/portfolio/codeit7th.jpg" alt="content">
+                            <h2 class="text-lg text-slate-200 font-medium title-font mb-4">Code IT 8th Anniversary </h2>
+                            <p class="leading-relaxed text-base clamped-text">As the Event Manager, I successfully planned and coordinated Code IT’s 8th Anniversary celebration. I handled everything from setup and team coordination to design and guest experience, ensuring a smooth and memorable event.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4"><a href="#">
+                        <div class="bg-secondary-600 bg-opacity-40 p-6 rounded-lg">
+                            <img class="h-40 rounded w-full object-cover object-center mb-6 hover:scale-105 duration-500"
+                                src="./asset/portfolio/Mou.jpg" alt="content">
+                            <h2 class="text-lg text-slate-200 font-medium title-font mb-4">MOU Sign at Koshi St.James
+                                College</h2>
+                            <p class="leading-relaxed text-base clamped-text">As the Event Manager, I successfully led the planning and coordination of Code IT’s 8th Anniversary celebration, ensuring a smooth and impactful event. I also managed the MOU signing at Koshi St. James College, handling preparations, coordination, and formalities to support strong academic collaboration. </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4">
+                    <a href="#">
+                        <div class="bg-secondary-600 bg-opacity-40 p-6 rounded-lg">
+                            <img class="h-40 rounded w-full object-cover object-center mb-6 hover:scale-105 duration-500"
+                                src="./asset/portfolio/stcBootcamp.jpg" alt="content">
+                            <h2 class="text-lg text-slate-200 font-medium title-font mb-4">Sunsari Technical Ui/Ux
+                                bootcamp </h2>
+                            <p class="leading-relaxed text-base clamped-text">I played a key role in organizing the Sunsari Technical UI/UX Bootcamp, managing event logistics, participant coordination, and smooth execution. The bootcamp provided hands-on design experience and valuable insights into user interface and user experience principles.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4"><a href="#">
+                        <div class="bg-secondary-600 bg-opacity-40 p-6 rounded-lg">
+                            <img class="h-40 rounded w-full object-cover object-center mb-6 hover:scale-105 duration-500"
+                                src="./asset/portfolio/CompanyCollab.png" alt="content">
+                            <h2 class="text-lg text-slate-200 font-medium title-font mb-4">Company Collaboration </h2>
+                            <p class="leading-relaxed text-base clamped-text">I actively worked on building meaningful collaborations with various companies, helping create partnerships that support student development, internship opportunities, and industry exposure. This strengthens the bridge between academic learning and real-world experience.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4"><a href="#">
+                        <div class="bg-secondary-600 bg-opacity-40 p-6 rounded-lg">
+                            <img class="h-40 rounded w-full object-cover object-center mb-6 hover:scale-105 duration-500"
+                                src="./asset/portfolio/internFest.jpg" alt="content">
+                            <h2 class="text-lg text-slate-200 font-medium title-font mb-4">Internship fest </h2>
+                            <p class="leading-relaxed text-base clamped-text">I helped organize the Internship Fest, connecting students with industry professionals and companies offering internship opportunities. It was a platform for students to explore career paths, gain practical insights, and secure hands-on experience in their fields of interest.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="xl:w-1/3 md:w-1/2 p-4"><a href="#">
+                        <div class="bg-secondary-600 bg-opacity-40 p-6 rounded-lg">
+                            <img class="h-40 rounded w-full object-cover object-center mb-6 hover:scale-105 duration-500"
+                                src="./asset/portfolio/publicAware.jpg" alt="content">
+                            <h2 class="text-lg text-slate-200 font-medium title-font mb-4">Awareness program at Public
+                                school</h2>
+                            <p class="leading-relaxed text-base clamped-text">I coordinated an awareness program at a public school to inspire and inform students about opportunities in tech and education. The session focused on building curiosity, promoting digital literacy, and encouraging students to think about their future goals early.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Portfolio Section End -->
+
+    <!--Skill Section Start -->
+    <!-- <section id="skills" class="text-gray-400 bg-secondary-500 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap border-t-2 border-secondary-600">
+            <div class="flex flex-col text-center w-full mb-20">
+                <h2
+                    class="sm:text-4xl text-2xl font-medium title-font underline decoration-primary-500 decoration-4 underline-offset-8 text-slate-200">
+                    My Skill's</h2>
+
+            </div>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide flex justify-center items-center">
+                        <div class="flex rounded-lg h-full bg-secondary-600 bg-opacity-60 p-8 flex-col">
+                            <div class="flex items-end mb-3">
+                                <img class="w-10 h-10 rounded-full mr-4" alt="quote" src="./asset/quote.png">
+                                <img class="w-10 h-10 rounded-full mr-4" alt="user"
+                                    src="https://randomuser.me/api/portraits/men/1.jpg">
+                            </div>
+                            <div class="flex-grow">
+                                <p class="leading-relaxed text-base">Lorem ipsum dolor sit amet consectetur, adipisicing
+                                    elit. Id, rerum fugit. Minus sit voluptate eos autem illo numquam commodi hic!</p>
+                                <h2 class="text-white text-lg title-font mt-6 font-medium">Arun Kumar</h2>
+                                <p class="leading-relaxed text-base">Delivery Manager, Vigowebs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide flex justify-center items-center">
+                        <div class="flex rounded-lg h-full bg-secondary-600 bg-opacity-60 p-8 flex-col">
+                            <div class="flex items-end mb-3">
+                                <img class="w-10 h-10 rounded-full mr-4" alt="quote" src="./asset/quote.png">
+                                <img class="w-10 h-10 rounded-full mr-4" alt="user"
+                                    src="https://randomuser.me/api/portraits/women/6.jpg">
+                            </div>
+                            <div class="flex-grow">
+                                <p class="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                    elit. Aliquam aspernatur a id eius recusandae dolore laudantium cumque laboriosam
+                                    quasi alias!</p>
+                                <h2 class="text-white text-lg title-font mt-6 font-medium">Bettie Bell</h2>
+                                <p class="leading-relaxed text-base">Project Manager, Coco tree</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide flex justify-center items-center">
+                        <div class="flex rounded-lg h-full bg-secondary-600 bg-opacity-60 p-8 flex-col">
+                            <div class="flex items-end mb-3">
+                                <img class="w-10 h-10 rounded-full mr-4" alt="quote" src="./asset/quote.png">
+                                <img class="w-10 h-10 rounded-full mr-4" alt="user"
+                                    src="https://randomuser.me/api/portraits/women/2.jpg">
+                            </div>
+                            <div class="flex-grow">
+                                <p class="leading-relaxed text-base">Lorem ipsum dolor sit amet consectetur adipisicing
+                                    elit. Asperiores, laudantium modi vitae esse in earum numquam ratione debitis
+                                    quisquam eum! Quos, nisi doloribus! Illum?</p>
+                                <h2 class="text-white text-lg title-font mt-6 font-medium">Melina</h2>
+                                <p class="leading-relaxed text-base mb-4">Project Associate, Bees Group</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section> -->
+
+    <!-- skill Section End -->
+
+    <!-- Blog Section Start-->
+    <section id="blog" class="text-gray-400 bg-secondary-500 body-font">
+        <div class="container px-5 py-24 mx-auto border-t-2 border-secondary-600">
+            <div class="flex flex-wrap -mx-4 -my-8">
+                <div class="flex flex-col text-center w-full mb-20">
+                    <h2
+                        class="sm:text-4xl text-2xl font-medium title-font underline decoration-primary-500 decoration-4 underline-offset-8 text-slate-200">
+                        My Blog</h2>
+                </div>
+                <div class="py-8 px-4 lg:w-1/3">
+                    <div class="bg-secondary-600 bg-opacity-40 p-6 rounded-lg h-full flex items-start">
+                        <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+                            <span class="text-gray-400 pb-2 mb-2 border-b-2 border-gray-700">Aug</span>
+                            <span class="font-medium text-lg leading-none text-gray-300 title-font">21</span>
+                        </div>
+                        <div class="flex-grow pl-6">
+                            <h2 class="tracking-widest text-xs title-font font-medium text-primary-500 mb-1 uppercase">
+                                Event Manager</h2>
+                            <h3 class="title-font text-xl font-medium text-slate-200 mb-3">How to Handle Events in an IT Company?</h3>
+                            <p class="leading-relaxed mb-5 clamped-text">Handling events in an IT company means smart planning, clear communication, and tech-savvy execution. From setting goals and managing timelines to coordinating teams and ensuring smooth tech setups, every step matters. Stay organized, adapt quickly, and focus on creating impactful experiences. A great event is all about the right mix of planning, teamwork, and a little creativity!</p>
+                            <a class="mt-3 text-primary-500 inline-flex items-center">Read more
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-8 px-4 lg:w-1/3">
+                    <div class="bg-secondary-600 bg-opacity-40 p-6 rounded-lg h-full flex items-start">
+                        <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+                            <span class="text-gray-400 pb-2 mb-2 border-b-2 border-gray-700">Jul</span>
+                            <span class="font-medium text-lg leading-none text-gray-300 title-font">31</span>
+                        </div>
+                        <div class="flex-grow pl-6">
+                            <h2 class="tracking-widest text-xs title-font font-medium text-primary-500 mb-1 uppercase">
+                                Event Coordinator
+                            </h2>
+                            <h3 class="title-font text-xl font-medium text-white mb-3">How to Succeed as an Event Coordinator in an IT Company?</h3>
+                            <p class="leading-relaxed mb-5 clamped-text">Being an event coordinator in an IT company involves balancing logistics, technology, and people management. The role demands attention to detail, from organizing team schedules to ensuring seamless virtual setups. You’ll need to communicate clearly with departments, understand the company’s goals, and ensure that the technology runs smoothly during the event. Flexibility is key—whether it’s managing virtual events or in-person gatherings, the ability to adapt to different tech tools and formats will make you stand out. With a keen eye for detail and a proactive attitude, you can create successful and engaging events that align with the company’s vision!</p>
+                            <a class="mt-3 text-primary-500 inline-flex items-center">Read more
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="py-8 px-4 lg:w-1/3">
+                    <div class="bg-secondary-600 bg-opacity-40 p-6 rounded-lg h-full flex items-start">
+                        <div class="w-12 flex-shrink-0 flex flex-col text-center leading-none">
+                            <span class="text-gray-400 pb-2 mb-2 border-b-2 border-gray-700">Jul</span>
+                            <span class="font-medium text-lg leading-none text-gray-300 title-font">15</span>
+                        </div>
+                        <div class="flex-grow pl-6">
+                            <h2 class="tracking-widest text-xs title-font font-medium text-primary-500 mb-1 uppercase">
+                                Collaborative Partnerships Manager
+                            </h2>
+                            <h3 class="title-font text-xl font-medium text-white mb-3">How to Thrive as a Collaborative Partnerships Manager in an IT Company?</h3>
+                            <p class="leading-relaxed mb-5 clamped-text">As a Collaborative Partnerships Manager in an IT company, your role is to foster strategic relationships with partners and stakeholders. You’ll collaborate with teams across business development, marketing, and technical departments to ensure partnerships align with company goals. Your focus will be on building long-term relationships, managing contracts, and exploring new collaboration opportunities. Strong communication, organization, and adaptability are essential to drive growth and innovation through partnerships.</p>
+                            <a class="mt-3 text-primary-500 inline-flex items-center">Read more
+                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Blog Section End -->
+
+    <!-- Contact Start -->
+    <section id="contact" class="text-slate-200  bg-secondary-500 body-font relative">
+        <div class="container px-5 py-24 mx-auto border-t-2 border-secondary-600 shadow-lg border-xl drop-shadow-lg">
+            <div class="flex flex-col text-center w-full mb-12">
+                <h2 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Contact Me</h2>
+                <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Feel free to reach out for inquiries or collaborations. I'm happy to connect!</p>
+            </div>
+            <div class="lg:w-1/2 md:w-2/3 mx-auto">
+                <div class="bg-secondary-600 bg-opacity-40 p-6 rounded-lg h-full flex items-start">
+                    <div class="flex flex-wrap -m-2">
+                        <div class="p-2 w-1/2">
+                            <div class="relative">
+                                <label for="name" class="leading-7 text-sm text-slate-200 uppercase">Name</label>
+                                <input type="text" id="name" name="name"
+                                    class="w-full bg-secondary-600 bg-opacity-40 rounded border border-slate-800 focus:border-primary-500 focus:ring-2 focus:ring-primary-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                            </div>
+                        </div>
+                        <div class="p-2 w-1/2">
+                            <div class="relative">
+                                <label for="email" class="leading-7 text-sm text-slate-200 uppercase">Email</label>
+                                <input type="email" id="email" name="email"
+                                    class="w-full bg-secondary-600 bg-opacity-40 rounded border border-slate-800 focus:border-primary-500 focus:bg-gray-900 focus:ring-2 focus:ring-primary-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                            </div>
+                        </div>
+                        <div class="p-2 w-full">
+                            <div class="relative">
+                                <label for="message" class="leading-7 text-sm text-slate-200 uppercase">Message</label>
+                                <textarea id="message" name="message"
+                                    class="w-full bg-secondary-600 rounded border border-slate-800 focus:border-primary-500 focus:bg-gray-900 focus:ring-2 focus:ring-primary-500 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                            </div>
+                        </div>
+                        <div class="p-4 w-full">
+                            <button
+                                class="flex mx-auto text-primary-500 bg-secondary-600 hover:bg-primary-500 hover:text-slate-200 border-lg font-medium py-4 px-10 focus:outline-nonerounded text-lg uppercase">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact End-->
+
+    <!-- Footer -->
+    <footer class="bg-secondary-600">
+        <div class="px-5 py-6 xl:max-w-maxw m-auto text-center text-slate-400 text-sm">
+            Copyrights &copy; 2025 | All Rights Reserved with Sanskriti.
+        </div>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- On Scroll Animation AOS script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- Swiper Slider Script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+
+        // On Scroll Animation AOS
+        AOS.init();
+
+        // Toggle Navbar for Smaller Screen
+        document.getElementById("hamburger").onclick = function toggleMenu() {
+            const navToggle = document.getElementsByClassName("toggle");
+            for (let i = 0; i < navToggle.length; i++) {
+                navToggle.item(i).classList.toggle("hidden");
+            }
+        };
+
+        // Swiper Testimonial slider
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            // Breakpoints for smaller device
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                },
+                480: {
+                    slidesPerView: 1,
+                },
+                640: {
+                    slidesPerView: 3,
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
